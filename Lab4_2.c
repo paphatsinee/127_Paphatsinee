@@ -3,9 +3,9 @@ int main()
 {
     int x,a=0,b=0;
     scanf("%d",&x);
-    if(0<x<100000)
+    if(0<=x<=100000)
     {
-        if(x!=1)
+        if(x!=1 && x!=0)
         {
             if(x%2==0 || x%3==0 || x%5==0 || x%7==0 || x%11==0)
             {
@@ -33,7 +33,7 @@ int main()
                     printf("%d",x);
             }
         }
-        else printf("3");
+        else printf("2");
     }
 
     return 0;
