@@ -3,12 +3,12 @@ int main()
 {
     int a,i,j,k=0;
     scanf("%d",&a);
-    int n[a][a-1],n[a];
+    int n[a][a-1];
     for(i=1;i<=a;i++)
     {
         for(j=1;j<=a-1;j++)
         {
-            scanf("%d",&n[i][j]);
+            scanf("%d",&n[i][j-1]);
 
         }
 
