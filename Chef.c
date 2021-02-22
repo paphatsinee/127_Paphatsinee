@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int a,i,j,k=0;
+    int a,i,j,k=0,b=0,c=0;
     scanf("%d",&a);
     int n[a][a-1];
     for(i=0;i<a;i++)
@@ -10,7 +10,6 @@ int main()
         {
             scanf("%d",&n[i][j]);
 
-
         }
     }
         if(1>n[i][j]>5)
@@ -18,11 +17,7 @@ int main()
             n[i][j]=0;
         }
 
-        for(i=0;i<a;i++)
-        {
-            printf("%d \n",h[i]);
 
-        }
 
  return 0;
 }
