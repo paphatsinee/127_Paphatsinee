@@ -3,16 +3,15 @@ int main()
 {
     int a,i,j,k=0;
     scanf("%d",&a);
-    int n[a][a-1],h[a];
+    int n[a][a-1];
     for(i=0;i<a;i++)
     {
         for(j=0;j<a-1;j++)
         {
-            scanf("%d",&n[i+1][j]);
-            h[i]=+n[i+1][j];
+            scanf("%d",&n[i][j]);
+
 
         }
-
     }
         if(1>n[i][j]>5)
         {
@@ -25,5 +24,5 @@ int main()
 
         }
 
-
+ return 0;
 }
